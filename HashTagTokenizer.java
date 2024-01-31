@@ -40,7 +40,7 @@ public class HashTagTokenizer {
 		else
 			hashtag.toLowerCase();
 		if (existInDictionary(hashtag, dictionary))
-			return breakHashTag(hashtag.substring(0, 1), dictionary);
+			return breakHashTag(hashtag.substring(1), dictionary);
 		;
 
 		int N = hashtag.length();
