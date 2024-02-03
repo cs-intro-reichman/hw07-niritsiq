@@ -37,7 +37,7 @@ public class HashTagTokenizer {
 		hashtag = hashtag.toLowerCase();
 		// Base case: do nothing (return) if hashtag is an empty string.
 		if (hashtag.isEmpty())
-			System.out.print(hashtag);
+			System.out.println(hashtag);
 
 		int N = hashtag.length();
 
