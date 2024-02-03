@@ -44,8 +44,8 @@ public class HashTagTokenizer {
 		for (int i = 1; i <= N; i++) {
 			String prefix = hashtag.substring(0, i);
 			if (existInDictionary(prefix, dictionary)) {
-				System.out.println(prefix);
 				breakHashTag(hashtag.substring(i), dictionary);
+				System.out.println(prefix);
 			}
 
 		}
